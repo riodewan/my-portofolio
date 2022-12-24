@@ -52,7 +52,6 @@ body {
 }
 
 
-
 ul {
   margin: 0;
   padding: 0;
@@ -136,14 +135,16 @@ img {
   }
 }
 
+
 .nav__item {
   margin-bottom: var(--mb-4);
 }
 
 .nav__link {
   position: relative;
-  color: #fff;
+  color: black;
 }
+
 
 .nav__link:hover {
   position: relative;
@@ -162,6 +163,7 @@ img {
 .nav__logo {
   color: var(--second-color);
 }
+
 
 .nav__toggle {
   color: var(--second-color);
@@ -268,7 +270,8 @@ img {
 .about__img img {
   width: 250px;
   border-radius: .5rem;
-  height: 250px;
+  margin-top: 10px;
+  height: 200px;
 }
 
 /* ===== SKILLS =====*/
@@ -407,6 +410,8 @@ img {
   padding: 2rem 0;
 }
 
+
+
 .footer__title {
   font-size: 2rem;
   margin-bottom: var(--mb-4);
@@ -506,9 +511,6 @@ img {
   }
   .nav__toggle {
     display: none;
-  }
-  .nav__link {
-    color: var(--second-color);
   }
   .home {
     padding: 8rem 0 2rem;
