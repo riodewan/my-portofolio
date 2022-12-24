@@ -84,6 +84,7 @@ img {
   --five-color:  rgba(146, 161, 176, 0.15);
   --six-color: #fff;
   --seven-color: rgba(146, 161, 176, 0.15);
+  transition: 0.9 all ease;
 }
 
 
