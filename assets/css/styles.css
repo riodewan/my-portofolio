@@ -10,6 +10,11 @@
   --hue-color: 224;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
+  --thrid-color: black;
+  --four-color:#fff;
+  --five-color: #fff;
+  --six-color: #fff;
+  --seven-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -49,6 +54,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  background-color: var(--four-color);
 }
 
 
@@ -67,6 +73,19 @@ img {
   height: auto;
   display: block;
 }
+
+/*===== DARK MODE ===== */
+
+.dark-theme{
+  --first-color: hsl(var(--hue-color), 89%, 60%);
+  --second-color: #fff;
+  --thrid-color: #fff;
+  --four-color: black;
+  --five-color:  rgba(146, 161, 176, 0.15);
+  --six-color: #fff;
+  --seven-color: rgba(146, 161, 176, 0.15);
+}
+
 
 /*===== CLASS CSS ===== */
 .section-title {
@@ -109,7 +128,7 @@ img {
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #fff;
+    background-color: var(--four-color);
     box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
   }
 
@@ -142,7 +161,7 @@ img {
 
 .nav__link {
   position: relative;
-  color: black;
+  color: var(--thrid-color);
 }
 
 
@@ -171,6 +190,11 @@ img {
   cursor: pointer;
 }
 
+#icon{
+  width: 25px;
+  cursor: pointer;
+}
+
 /*Active menu*/
 .active::after {
   position: absolute;
@@ -192,6 +216,7 @@ img {
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
+  margin-top: -50px;
 }
 
 .home__data {
@@ -242,7 +267,7 @@ img {
 .button {
   display: inline-block;
   background-color: var(--first-color);
-  color: #fff;
+  color: var(--four-color);
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
@@ -297,6 +322,7 @@ img {
   padding: .5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
+  background-color: var(--five-color);
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
 }
 
@@ -382,7 +408,7 @@ img {
 }
 
 .work__img p{
-  color: black;
+  color: var(--thrid-color);
   text-align: center;
 }
 
@@ -394,7 +420,7 @@ img {
 }
 
 .tools a{
-  color: black;
+  color: var(--thrid-color);
   font-weight: 500;
   font-size: 12px;
   padding: 5px;
@@ -403,13 +429,12 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: var(--second-color);
-  color: #fff;
+  background-color: var(--seven-color);
+  color: var(--six-color);
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
 }
-
 
 
 .footer__title {
@@ -423,7 +448,7 @@ img {
 
 .footer__icon {
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--six-color);
   margin: 0 var(--mb-2);
 }
 

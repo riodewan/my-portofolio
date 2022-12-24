@@ -50,6 +50,19 @@ const sr = ScrollReveal({
 //     reset: true
 });
 
+/*===== DARK THEME =====*/
+
+var icon = document.getElementById("icon");
+
+icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        icon.src = "assets/img/sun.png";
+    }else{
+        icon.src = "assets/img/moon.png";
+    }
+}
+
 
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
