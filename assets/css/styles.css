@@ -580,7 +580,7 @@ img {
 
 @media screen and (min-width: 992px) {
   .nav img{
-    margin-left: -300px;
+    margin-left: -275px;
   }
   .bd-grid {
     margin-left: auto;
