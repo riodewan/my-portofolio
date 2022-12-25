@@ -470,6 +470,11 @@ img {
   }
   .home__img {
     width: 200px;
+    margin-bottom: 50px;
+  }
+
+  .home__social{
+    margin-top: 50px;
   }
   .nav img{
     margin-top: -3px;
