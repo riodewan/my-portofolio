@@ -15,7 +15,7 @@
   --five-color: #fff;
   --six-color: #fff;
   --seven-color: hsl(var(--hue-color), 56%, 12%);
-  --eight-color: hsl(var(--hue-color), 56%, 12%);
+  --eight-color: rgba(100, 107, 115, 0.989);
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -155,6 +155,7 @@ img {
     background-color: var(--eight-color);
     transition: .5s;
   }
+
 }
 
 
