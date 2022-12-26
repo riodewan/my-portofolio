@@ -158,6 +158,10 @@ img {
 
 }
 
+/* .nav__menu{
+  margin-left: 300px;
+} */
+
 
 .nav__item {
   margin-bottom: var(--mb-4);
@@ -166,10 +170,6 @@ img {
 .nav__link {
   position: relative;
   color: var(--thrid-color);
-}
-
-.nav img{
-  margin-right: -75px;
 }
 
 
@@ -547,6 +547,10 @@ img {
     height: calc(var(--header-height) + 1.5rem);
   }
 
+  .nav__menu{
+    margin-right: -300px;
+  }
+
   .nav__list {
     display: flex;
     padding-top: 0;
@@ -585,9 +589,6 @@ img {
 }
 
 @media screen and (min-width: 992px) {
-  .nav img{
-    margin-left: -275px;
-  }
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
